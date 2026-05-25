@@ -24,3 +24,4 @@ jobs:
        env:
          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}cy.contains('a','Home').should('have.attr', 'href', '/home')
+         FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
