@@ -13,5 +13,3 @@ describe('Cypress Cloud Demo', () => {
        cy.get('#logout_sidebar_link').click();
    });
 })
-
-cy.contains('a','Home').should('have.attr', 'href', '/home')

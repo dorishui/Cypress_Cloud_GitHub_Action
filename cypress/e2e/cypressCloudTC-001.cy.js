@@ -11,5 +11,3 @@ describe('Cypress Cloud Demo', () => {
    });
 })
 
-cy.contains('a','Home').should('have.attr', 'href', '/home')
-
